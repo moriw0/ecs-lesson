@@ -4,7 +4,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 describe("HelloWorld.vue", () => {
   it("renders props.msg when passed", () => {
     const msg =
-      "This application is Sample WebApp for CICD lesson.Response from REST API is...";
+      "This application is Sample WebApp for CICD lesson.(ver1.0.1)Response from REST API is...";
     const wrapper = shallowMount(HelloWorld, {
       props: { msg },
     });
